@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">fractments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frag2">FRAG2</string>
+    <string name="gogoal">GoGoal</string>
+    <string name="frag3">frag3</string>
+    <string name="hola">Hola!</string>
+    <string name="caracola">caracola</string>
+    <string name="goal">GOAL !</string>
+</resources>

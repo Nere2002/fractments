@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.skye.fractments.BlankFragment"
+        android:label="BlankFragment" >
+        <action
+            android:id="@+id/action_blankFragment_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.skye.fractments.BlankFragment2"
+        android:label="BlankFragment2" >
+        <action
+            android:id="@+id/action_blankFragment2_to_blankFragment3"
+            app:destination="@id/blankFragment3"
+            app:popUpTo="@id/blankFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_blankFragment2_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="com.skye.fractments.BlankFragment3"
+        android:label="BlankFragment3" >
+        <action
+            android:id="@+id/action_blankFragment3_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment4"
+        android:name="com.skye.fractments.BlankFragment4"
+        android:label="BlankFragment4" />
+</navigation>
